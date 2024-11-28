@@ -1,0 +1,16 @@
+.food-display{
+    margin-top: 20px;
+}
+.food-display h2{
+    font-size: max(2vm,24px);
+    font-weight: 600;
+    font-family:'Segoe UI' ;
+}
+.food-diaplay-list{
+    display: grid;
+    grid-template-columns:repeat(auto-fill, minmax(240px,1fr));
+    gap: 40px;
+    row-gap: 50px;
+
+}
+

@@ -1,0 +1,29 @@
+.Main-Navbar {
+    background-color: rgb(254, 254, 254,0.7); /* Set your desired background color */
+    padding: 20px; /* Add some padding for spacing */
+}
+
+.Navbar-Container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Distribute links evenly */
+    align-items: center; /* Vertically center the links */
+}
+
+.ab {
+
+    text-decoration: none;
+    text-decoration-color :rgb(116, 32, 123);
+    color: #641919; /* Set link color */
+    font-weight: bold;
+    margin: 20px 10px; 
+    font-size: 24px;/* Add spacing between links */
+}
+
+/* Hover effect for links */
+ .ab:hover {
+    color: #b196aa; /* Set hover color */
+}
+.Navbat-Container a:hover:not(.activeNav){
+    background-color: aliceblue;
+}
